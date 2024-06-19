@@ -6,7 +6,7 @@
     <title>getTech | Cadastrar Usuario</title>
 </head>
 <body>
-    <form action="../controller/GravarCliente.php">
+    <form action="../controller/GravarCliente.php" method="POST">
         <label for="Usuario">
             <input type="text">
         </label>

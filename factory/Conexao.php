@@ -7,7 +7,7 @@ class Caminho{
             try {
                 self::$connect = new PDO('mysql:
                 host=localhost;
-                dbname=bdgetTech;',
+                dbname=db_gettech;',
                 self::$usuario,self::$senha);
             } catch (Exception $ex) {
                 echo 'Mensagem: ' .$ex->getMessage();

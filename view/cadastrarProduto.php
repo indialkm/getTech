@@ -6,6 +6,10 @@
     <title>getTech | Cadastrar produto</title>
 </head>
 <body>
+    <form action="../controller/GravarProduto.php" method="POST">
     
+
+
+    </form>
 </body>
 </html>

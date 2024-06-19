@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+  color: white;
+}
+body {
+  height: 100vh;
+}
+
+h1 {
+  color: white;
+}
+
+button {
+  background-color: #0d3cbf;
+}
+
+#caixaEsquerda {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #D0E3F7;
+  height: 100vh;
+}
+
+#caixaEsquerda a{
+  margin-bottom: 40%;
+  margin-left: 5%;
+  color: rgb(0, 24, 241);
+  font-size: 1.5em;
+}
+
+
+#caixaDireita {
+  background-image: url(../image/telaLogin.jpg);
+  height: 100vh;
+  padding: 5%;
+}
+
+/************MUDAR INPUTS****************/
+input:focus {
+  border-bottom: 1px solid rgb(255, 255, 255) !important;
+  box-shadow: 0 1px 0 0 rgb(255, 255, 255) !important;
+}
+
+label.active {
+  color: rgb(255, 255, 255) !important;
+}
+/**********************************/
+
+.logo {
+  height: 25%;
+}
